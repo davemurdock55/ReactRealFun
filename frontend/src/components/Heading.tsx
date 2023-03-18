@@ -4,7 +4,7 @@ export default class Heading extends Component {
    render() {
       return (
          <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
                <div className="container-fluid">
                   <a className="navbar-brand" href="#">Navbar</a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,9 @@ export default class Heading extends Component {
                </div>
             </nav>
 
-            <h1>High School Teams</h1>
+            <div className="mt-5 p-1"></div>
+            <h1 className="mt-5 text-primary">MARCH MADNESS</h1>
+            <h2 className="mt-3">High School Teams</h2>
          </>
       );
    }
