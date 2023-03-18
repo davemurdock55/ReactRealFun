@@ -1,26 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootswatch/dist/cosmo/bootstrap.min.css';
+import Heading from './components/Heading';
+import TeamList from './components/TeamList';
+import Team from './components/Team';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello world, and Welcome to David's React App</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <Heading />
+        <TeamList />
       </header>
+
     </div>
   );
 }
