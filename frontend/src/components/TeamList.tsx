@@ -26,7 +26,7 @@ export default class TeamList extends Component {
       const TeamsInfo = CollegeBasketballTeams.teams;
 
       return (
-         <div className="mt-5 text-center text-primary card border-primary mb-3">
+         <div className="mt-5 text-center text-primary card border-primary mb-3" id="teams">
             <h3 className="mt-3 card-header">Teams List</h3>
             <div className="row justify-content-center p-5">
                {TeamsInfo.map((team) => (

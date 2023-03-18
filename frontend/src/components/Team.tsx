@@ -21,7 +21,7 @@ export default class Team extends Component
                <div className="card-header"><b>{team.school}</b></div>
                <div className="card-body">
                   <h4 className="card-title">{team.name}</h4>
-                  <h5 className="card-text">{team.city}</h5>
+                  <h5 className="card-text text-secondary">{team.city}, {team.state}</h5>
                </div>
             </div>
          </div>
